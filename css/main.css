@@ -1,0 +1,22 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-item{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 550;
+}
+
+.navbar-brand{
+    padding: 20px;
+    font-weight: 550;
+}
+
+/*#first{
+    align-items: center;
+}
+*/
+#particles-js{
+    position: absolute;
+}
