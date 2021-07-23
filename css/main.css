@@ -13,10 +13,10 @@
     font-weight: 550;
 }
 
-/*#first{
-    align-items: center;
-}
-*/
 #particles-js{
     position: absolute;
+}
+.connect-us{
+    
+    font-size: 1.3125em;
 }

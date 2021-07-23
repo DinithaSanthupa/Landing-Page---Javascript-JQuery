@@ -10,9 +10,14 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  
   <section id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -52,7 +57,7 @@
     <section class="container-fluid">
       <section id="first" class="row min-vh-100">
         <section class="col-lg-6 col-sm-12 col-md-4 d-flex flex-column justify-content-center";>
-          <div>
+          <div class="p-sm-3 p-md-3">
             <h1 class="display-3 mb-4">Learn <span class="typed" style="color: blueviolet;"></span></h1>
             <p class="fw-bold">Boostrap is the most popular css framework for developing responsive and mobile-first websites.
               
@@ -69,7 +74,40 @@
       </section>
     </section>
     
-   
+    <section class="container-fluid my-5 min-vh-100">
+      <section class="row py-5">
+        <h1 class="text-center display-2">Need Help?</h1>
+        <p class="text-center connect-us">Fill in the form and connect us with 1 minutes.</p>
+        <section class="col-sm-12 col-md-6 d-flex first justify-content-center">
+          <img class="contact-img" src="img/contact-us.png" alt="Contact-us" >
+        </section>
+        <section class="col-sm-12 col-md-6 d-flex first justify-content-center">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="Subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea type="text" rows="5" class="form-control" id="message"></textarea>
+            </div>
+            <button type="button" id="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+            <div id="xss">
+
+            </div>
+          </form>
+          <div id="status">
+            
+          </div>
+        </section>
+      </section>
+
+    </section>
     
 
     <script src="js/particles.js"></script>
@@ -89,7 +127,7 @@
 
     </script>
 
-    <script src="js/bootstrap.bundle.js"></script>
+    
     
     
 </body>
